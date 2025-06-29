@@ -14,3 +14,14 @@ p.then((message)=>{
 }).catch((message)=>{
     console.log("this is in the catch",message);
 })
+
+//pending,fullfilled,rejected
+
+
+const cart=["sari","kurta","pants"];
+
+creatOrder(cart,function(){
+    prodeedToPayment(orderid);
+    
+});//orderid
+
