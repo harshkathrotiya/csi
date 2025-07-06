@@ -32,3 +32,9 @@ try
 catch(e){
     console.log(e);
 }
+const printhello=()=>{
+    console.log("hello");
+}
+
+module.exports={printhello};
+console.log(module.exports);
